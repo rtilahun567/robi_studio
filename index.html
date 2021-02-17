@@ -1,0 +1,179 @@
+ <html>
+<head>
+   <title> Robis art shop
+</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<meta name="viewport" content="width" =device-width, initial-scale =1"
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300&family=Oswald&family=Pacifico&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+
+</head>
+<body>
+<section id="banner">
+<img src="image/logo.jpg" class="logo">
+<div class="banner-text">
+    <h1>Robi's Studio</h1>
+    <p>Art that inspires</p>
+    <div class="banner-btn">
+     <a href="#banner" ><span></span>HOME</a>  
+     <a href="#feature" ><span></span>FEATURES</a>  
+     <a href="#service" ><span></span>SERVICES</a>  
+     <a href="#footer" ><span></span>MEET US</a>  
+    </div>
+</div>
+</section>
+<div id="sidenav">
+    <nav>
+        <ul>
+            <li><a href="#banner">HOME</a></li>
+            <li><a href="#feature">FEATURES</a></li>
+            <li><a href="#service">SERVICES</a></li>
+            <li><a href="#footer">MEET US</a></li>
+        </ul>
+</nav>
+</div><div id="menuBtn">
+   <img src="image/menu.png" id="menu">
+</div>
+
+<!--features-->
+<section id="feature">
+    <div class="title-text">
+    <p>FEATURES</p> 
+    <h1>Why u should hire me </h1>  
+    </div>
+    <div class="feature-box">
+        <div class="features">
+            <h1>I will make your imagnation come to life</h1>
+        <div class="features-desc">
+            <div class="feature-icon"></div>
+            <div class="feature-text">
+                <p>I will design or draw any thing that you want that u can't do for your self</p>
+            </div>
+        </div>
+        <h1>Kinds of art i provide</h1>
+        <div class="features-desc">
+            <div class="feature-icon"></div>
+            <div class="feature-text">
+                <p> Pencil Sketches,
+                    Grafitty,
+                    Stiker works,
+                    On Canvas paintigs,
+                    Pen drawings,
+                    String arts,
+                    Logo design
+                     
+                
+                </p>
+            </div>
+        </div>
+        <h1>Gifts</h1>
+        <div class="features-desc">
+            <div class="feature-icon"></div>
+            <div class="feature-text">
+                <p>Framed arts and
+                   Paintings for family,friends,and for couples
+                </p>
+            </div>
+        </div>
+        </div>
+        <div class="features-img">
+            <img src="image/15.jpg"
+    </div>
+</section>
+
+<!--service-->
+
+<section id="service">
+    <div class="title-text">
+        <p>SERVICES</p> 
+        <h1>Some of my works </h1>  
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img src="image/4.jpg">
+                <div class="overlay"></div>
+            </div>
+            <div class="single-service">
+                <img src="image/5.jpg">
+                <div class="overlay"></div>
+            </div> 
+            <div class="single-service">
+                <img src="image/6.jpg">
+                <div class="overlay"></div>
+            </div>
+            <div class="single-service">
+                <img src="image/7.jpg">
+                <div class="overlay"></div>
+                
+            </div>
+        </div>
+</section>
+
+
+
+
+
+<script>
+    var menuBtn =document.getElementById("menuBtn")
+    var sidenav =document.getElementById("sidenav")
+    var menu =document.getElementById("menu")
+
+sidenav.style.right = "-250px";
+
+menuBtn.onclick = function(){
+        if(sidenav.style.right == "-250px"){
+            sidenav.style.right = "0";
+            menu.src = "image/close.png";
+        }
+        else{
+            sidenav.style.right = "-250";
+            menu.src = "image/menu.png";
+
+        }
+    }
+
+</script>
+
+<!--footer-->
+
+<section id="footer">
+
+
+<img src="" class"footer-img">
+<div class="title-text">
+<p>CONTACT</p>
+<h1>Contact Us now</h1>
+
+<div class="wrapper">
+    <ul>
+        <li><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
+        <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+        <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+        <li><i class="fa fa-telegram" aria-hidden="true"></i></li>
+
+
+
+
+    </ul>
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+</section>
+</body>
+ </html> 
